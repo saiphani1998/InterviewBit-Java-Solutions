@@ -4,10 +4,9 @@
     Input : 1 -> 3 -> 2
     Return 1 -> 2 -> 3
 *
-* Approach: Create an empty sorted (or result) list.
-    * Traverse the given list, do following for every node.
-        * Insert current node in sorted way in sorted or result list.
-    * Change head of given linked list to head of sorted (or result) list.
+* Approach: Create an empty sorted list.
+    * Traverse the given list, insert current node in sorted way in sorted list.
+    * After completion of checking all the elements, change head of given linked list to head of sorted list.
 * */
 
 /**
