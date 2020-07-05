@@ -1,9 +1,7 @@
 /*
 * Given a binary tree, flatten it to a linked list in-place.
 * Example :
-    Given
-
-
+    Given,
              1
             / \
            2   5
