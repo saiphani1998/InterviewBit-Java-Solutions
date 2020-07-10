@@ -32,7 +32,7 @@ public class Solution {
         if ((A == null && B != null) || (A != null && B == null) || (A.val != B.val)) {
             return 0;
         }
-        // return isSameTree(A.left,B.left) == 0 ? 0 : isSameTree(A.right,B.right);
-        return Math.min(isSameTree(A.left,B.left), isSameTree(A.right,B.right));
+        // return Math.min(isSameTree(A.left,B.left), isSameTree(A.right,B.right));
+        return isSameTree(A.left,B.left) == 0 ? 0 : isSameTree(A.right,B.right);
     }
 }
